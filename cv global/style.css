@@ -8,6 +8,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 * {
@@ -89,8 +91,13 @@ body {
   }
 
   .pre {
+    display: flex;
+    justify-items:center;
+    justify-content: space-between;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
   }
 
   .footer {
